@@ -1,0 +1,23 @@
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+**/secrets.json
+
+# IDE files
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
